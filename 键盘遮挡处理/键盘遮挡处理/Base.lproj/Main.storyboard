@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="键盘遮挡处理" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="giB-NF-15s">
+                                <rect key="frame" x="0.0" y="523" width="320" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DG-Z3-149">
+                                        <rect key="frame" x="8" y="4" width="40" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="51e-Kv-jQV"/>
+                                            <constraint firstAttribute="height" constant="38" id="mzO-e9-tYe"/>
+                                        </constraints>
+                                        <state key="normal" title="发送"/>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Puo-DF-voq">
+                                        <rect key="frame" x="65" y="8" width="220" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="gmH-tU-bMp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="44h-BC-qFW"/>
+                                    <constraint firstItem="Puo-DF-voq" firstAttribute="leading" secondItem="4DG-Z3-149" secondAttribute="trailing" constant="17" id="EUQ-j1-npA"/>
+                                    <constraint firstItem="Puo-DF-voq" firstAttribute="centerY" secondItem="4DG-Z3-149" secondAttribute="centerY" id="RRs-48-Fki"/>
+                                    <constraint firstAttribute="trailing" secondItem="Puo-DF-voq" secondAttribute="trailing" constant="35" id="Wrb-LJ-xxB"/>
+                                    <constraint firstItem="4DG-Z3-149" firstAttribute="leading" secondItem="giB-NF-15s" secondAttribute="leading" constant="8" id="XB4-vM-pfj"/>
+                                    <constraint firstItem="4DG-Z3-149" firstAttribute="centerY" secondItem="giB-NF-15s" secondAttribute="centerY" id="qTv-U9-MEq"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xdq-OC-bAX">
+                                <rect key="frame" x="102" y="234" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cNQ-dC-6YH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="giB-NF-15s" secondAttribute="bottom" id="1Xl-w3-yZU"/>
+                            <constraint firstItem="giB-NF-15s" firstAttribute="top" secondItem="Xdq-OC-bAX" secondAttribute="bottom" constant="259" id="Dih-sQ-q2y"/>
+                            <constraint firstItem="giB-NF-15s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GXH-Rl-429"/>
+                            <constraint firstAttribute="trailing" secondItem="Xdq-OC-bAX" secondAttribute="trailing" constant="121" id="RMi-EP-Rg9"/>
+                            <constraint firstAttribute="trailing" secondItem="giB-NF-15s" secondAttribute="trailing" id="RuH-F5-Q3a"/>
+                            <constraint firstItem="Xdq-OC-bAX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="102" id="YTy-2J-NpI"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="centerView" destination="Xdq-OC-bAX" id="cgm-lu-NwT"/>
+                        <outlet property="inputBackView" destination="giB-NF-15s" id="gI2-uf-g8Z"/>
+                        <outlet property="inputFiled" destination="Puo-DF-voq" id="XEU-oO-LbY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281" y="374"/>
+        </scene>
+    </scenes>
+</document>
