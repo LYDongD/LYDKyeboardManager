@@ -40,7 +40,7 @@ class LYKeyboardManager: NSObject {
     // 处理键盘
     func keyboardShow(notification: NSNotification) {
         print("\(notification)")
-        
+        print("键盘弹出")
         //取出信息
         let userInfo = notification.userInfo! as NSDictionary
         
@@ -94,6 +94,8 @@ class LYKeyboardManager: NSObject {
     
     
     func keyboardHide(notification: NSNotification) {
+        print("键盘收回")
+        
         //取出信息
         let userInfo = notification.userInfo! as NSDictionary
         
