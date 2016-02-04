@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79255A131C5EEFE600AFABEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79255A121C5EEFE600AFABEA /* AppDelegate.swift */; };
+		79255A151C5EEFE600AFABEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79255A141C5EEFE600AFABEA /* ViewController.swift */; };
+		79255A181C5EEFE600AFABEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79255A161C5EEFE600AFABEA /* Main.storyboard */; };
+		79255A1A1C5EEFE600AFABEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79255A191C5EEFE600AFABEA /* Assets.xcassets */; };
+		79255A1D1C5EEFE600AFABEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79255A1B1C5EEFE600AFABEA /* LaunchScreen.storyboard */; };
+		79255A281C5EEFE600AFABEA /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79255A271C5EEFE600AFABEA /* ______Tests.swift */; };
+		79255A331C5EEFE600AFABEA /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79255A321C5EEFE600AFABEA /* ______UITests.swift */; };
+		79255A411C5F061C00AFABEA /* LYKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79255A401C5F061C00AFABEA /* LYKeyboardManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79255A241C5EEFE600AFABEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79255A071C5EEFE600AFABEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79255A0E1C5EEFE600AFABEA;
+			remoteInfo = "键盘遮挡处理";
+		};
+		79255A2F1C5EEFE600AFABEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79255A071C5EEFE600AFABEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79255A0E1C5EEFE600AFABEA;
+			remoteInfo = "键盘遮挡处理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79255A0F1C5EEFE600AFABEA /* 键盘遮挡处理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "键盘遮挡处理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79255A121C5EEFE600AFABEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79255A141C5EEFE600AFABEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79255A171C5EEFE600AFABEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79255A191C5EEFE600AFABEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79255A1C1C5EEFE600AFABEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79255A1E1C5EEFE600AFABEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79255A231C5EEFE600AFABEA /* 键盘遮挡处理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘遮挡处理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79255A271C5EEFE600AFABEA /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		79255A291C5EEFE600AFABEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79255A2E1C5EEFE600AFABEA /* 键盘遮挡处理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘遮挡处理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79255A321C5EEFE600AFABEA /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		79255A341C5EEFE600AFABEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79255A401C5F061C00AFABEA /* LYKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYKeyboardManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79255A0C1C5EEFE600AFABEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79255A201C5EEFE600AFABEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79255A2B1C5EEFE600AFABEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79255A061C5EEFE600AFABEA = {
+			isa = PBXGroup;
+			children = (
+				79255A111C5EEFE600AFABEA /* 键盘遮挡处理 */,
+				79255A261C5EEFE600AFABEA /* 键盘遮挡处理Tests */,
+				79255A311C5EEFE600AFABEA /* 键盘遮挡处理UITests */,
+				79255A101C5EEFE600AFABEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79255A101C5EEFE600AFABEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79255A0F1C5EEFE600AFABEA /* 键盘遮挡处理.app */,
+				79255A231C5EEFE600AFABEA /* 键盘遮挡处理Tests.xctest */,
+				79255A2E1C5EEFE600AFABEA /* 键盘遮挡处理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79255A111C5EEFE600AFABEA /* 键盘遮挡处理 */ = {
+			isa = PBXGroup;
+			children = (
+				79255A121C5EEFE600AFABEA /* AppDelegate.swift */,
+				79255A141C5EEFE600AFABEA /* ViewController.swift */,
+				79255A161C5EEFE600AFABEA /* Main.storyboard */,
+				79255A191C5EEFE600AFABEA /* Assets.xcassets */,
+				79255A1B1C5EEFE600AFABEA /* LaunchScreen.storyboard */,
+				79255A1E1C5EEFE600AFABEA /* Info.plist */,
+				79255A401C5F061C00AFABEA /* LYKeyboardManager.swift */,
+			);
+			path = "键盘遮挡处理";
+			sourceTree = "<group>";
+		};
+		79255A261C5EEFE600AFABEA /* 键盘遮挡处理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79255A271C5EEFE600AFABEA /* ______Tests.swift */,
+				79255A291C5EEFE600AFABEA /* Info.plist */,
+			);
+			path = "键盘遮挡处理Tests";
+			sourceTree = "<group>";
+		};
+		79255A311C5EEFE600AFABEA /* 键盘遮挡处理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				79255A321C5EEFE600AFABEA /* ______UITests.swift */,
+				79255A341C5EEFE600AFABEA /* Info.plist */,
+			);
+			path = "键盘遮挡处理UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79255A0E1C5EEFE600AFABEA /* 键盘遮挡处理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79255A371C5EEFE600AFABEA /* Build configuration list for PBXNativeTarget "键盘遮挡处理" */;
+			buildPhases = (
+				79255A0B1C5EEFE600AFABEA /* Sources */,
+				79255A0C1C5EEFE600AFABEA /* Frameworks */,
+				79255A0D1C5EEFE600AFABEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "键盘遮挡处理";
+			productName = "键盘遮挡处理";
+			productReference = 79255A0F1C5EEFE600AFABEA /* 键盘遮挡处理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79255A221C5EEFE600AFABEA /* 键盘遮挡处理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79255A3A1C5EEFE600AFABEA /* Build configuration list for PBXNativeTarget "键盘遮挡处理Tests" */;
+			buildPhases = (
+				79255A1F1C5EEFE600AFABEA /* Sources */,
+				79255A201C5EEFE600AFABEA /* Frameworks */,
+				79255A211C5EEFE600AFABEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79255A251C5EEFE600AFABEA /* PBXTargetDependency */,
+			);
+			name = "键盘遮挡处理Tests";
+			productName = "键盘遮挡处理Tests";
+			productReference = 79255A231C5EEFE600AFABEA /* 键盘遮挡处理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79255A2D1C5EEFE600AFABEA /* 键盘遮挡处理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79255A3D1C5EEFE600AFABEA /* Build configuration list for PBXNativeTarget "键盘遮挡处理UITests" */;
+			buildPhases = (
+				79255A2A1C5EEFE600AFABEA /* Sources */,
+				79255A2B1C5EEFE600AFABEA /* Frameworks */,
+				79255A2C1C5EEFE600AFABEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79255A301C5EEFE600AFABEA /* PBXTargetDependency */,
+			);
+			name = "键盘遮挡处理UITests";
+			productName = "键盘遮挡处理UITests";
+			productReference = 79255A2E1C5EEFE600AFABEA /* 键盘遮挡处理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79255A071C5EEFE600AFABEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.fengdikeji;
+				TargetAttributes = {
+					79255A0E1C5EEFE600AFABEA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					79255A221C5EEFE600AFABEA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 79255A0E1C5EEFE600AFABEA;
+					};
+					79255A2D1C5EEFE600AFABEA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 79255A0E1C5EEFE600AFABEA;
+					};
+				};
+			};
+			buildConfigurationList = 79255A0A1C5EEFE600AFABEA /* Build configuration list for PBXProject "键盘遮挡处理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79255A061C5EEFE600AFABEA;
+			productRefGroup = 79255A101C5EEFE600AFABEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79255A0E1C5EEFE600AFABEA /* 键盘遮挡处理 */,
+				79255A221C5EEFE600AFABEA /* 键盘遮挡处理Tests */,
+				79255A2D1C5EEFE600AFABEA /* 键盘遮挡处理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79255A0D1C5EEFE600AFABEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79255A1D1C5EEFE600AFABEA /* LaunchScreen.storyboard in Resources */,
+				79255A1A1C5EEFE600AFABEA /* Assets.xcassets in Resources */,
+				79255A181C5EEFE600AFABEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79255A211C5EEFE600AFABEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79255A2C1C5EEFE600AFABEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79255A0B1C5EEFE600AFABEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79255A151C5EEFE600AFABEA /* ViewController.swift in Sources */,
+				79255A131C5EEFE600AFABEA /* AppDelegate.swift in Sources */,
+				79255A411C5F061C00AFABEA /* LYKeyboardManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79255A1F1C5EEFE600AFABEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79255A281C5EEFE600AFABEA /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79255A2A1C5EEFE600AFABEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79255A331C5EEFE600AFABEA /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79255A251C5EEFE600AFABEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79255A0E1C5EEFE600AFABEA /* 键盘遮挡处理 */;
+			targetProxy = 79255A241C5EEFE600AFABEA /* PBXContainerItemProxy */;
+		};
+		79255A301C5EEFE600AFABEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79255A0E1C5EEFE600AFABEA /* 键盘遮挡处理 */;
+			targetProxy = 79255A2F1C5EEFE600AFABEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79255A161C5EEFE600AFABEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79255A171C5EEFE600AFABEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79255A1B1C5EEFE600AFABEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79255A1C1C5EEFE600AFABEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79255A351C5EEFE600AFABEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79255A361C5EEFE600AFABEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79255A381C5EEFE600AFABEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "键盘遮挡处理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengdikeji.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79255A391C5EEFE600AFABEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "键盘遮挡处理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengdikeji.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79255A3B1C5EEFE600AFABEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "键盘遮挡处理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengdikeji.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘遮挡处理.app/键盘遮挡处理";
+			};
+			name = Debug;
+		};
+		79255A3C1C5EEFE600AFABEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "键盘遮挡处理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengdikeji.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘遮挡处理.app/键盘遮挡处理";
+			};
+			name = Release;
+		};
+		79255A3E1C5EEFE600AFABEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "键盘遮挡处理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengdikeji.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "键盘遮挡处理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79255A3F1C5EEFE600AFABEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "键盘遮挡处理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengdikeji.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "键盘遮挡处理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79255A0A1C5EEFE600AFABEA /* Build configuration list for PBXProject "键盘遮挡处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79255A351C5EEFE600AFABEA /* Debug */,
+				79255A361C5EEFE600AFABEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79255A371C5EEFE600AFABEA /* Build configuration list for PBXNativeTarget "键盘遮挡处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79255A381C5EEFE600AFABEA /* Debug */,
+				79255A391C5EEFE600AFABEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79255A3A1C5EEFE600AFABEA /* Build configuration list for PBXNativeTarget "键盘遮挡处理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79255A3B1C5EEFE600AFABEA /* Debug */,
+				79255A3C1C5EEFE600AFABEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79255A3D1C5EEFE600AFABEA /* Build configuration list for PBXNativeTarget "键盘遮挡处理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79255A3E1C5EEFE600AFABEA /* Debug */,
+				79255A3F1C5EEFE600AFABEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79255A071C5EEFE600AFABEA /* Project object */;
+}
