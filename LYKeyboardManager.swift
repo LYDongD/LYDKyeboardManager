@@ -22,6 +22,7 @@ class LYKeyboardManager: NSObject {
     init(translateView: UIView, inputView: UIView) {
         self.view = translateView
         self.inputView = inputView
+        print("hello world")
         super.init() //向上代理
     }
     
